@@ -1,0 +1,100 @@
+.container{
+    background-color: white;
+    margin-top: 20px;
+    /* border: 1px solid; */
+}
+.table {
+    border-collapse: collapse;
+    background-color: white;
+    justify-content: center;
+    margin: auto;  
+}
+th, td {
+    width:150px;
+    height:50px;
+    text-align:center;
+    font-family: cursive;
+   
+}
+.deal-head {
+    border-right:hidden;
+    font-size: large;
+    Color:rgb(0, 0, 0);
+
+    
+}
+.id-head{
+    border-right: hidden;
+    border-left: hidden;
+    font-size: large;
+    Color:rgb(0, 0, 0);
+}
+.quote-head{
+    border-left: hidden;
+    border-right: hidden;
+    height:10px;
+    font-size: large;
+    Color:rgb(0, 0, 0);
+
+}
+.customer-head{
+    border-left: hidden;
+    border-right: hidden;
+    height:10px;
+    font-size: large;
+    Color:rgb(0, 0, 0);
+}
+.total-head{
+    border-left: hidden;
+    height:10px;
+    font-size: large;
+    Color:rgb(0, 0, 0);
+}
+
+.table{
+    border-collapse: separate;
+    border-spacing:4px 6px;  
+}
+
+.name {
+    border-right:hidden;
+    background-color: rgb(240, 237, 237);
+    color:indigo;  
+    border:6px solid;
+    border-right: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-left-color: blue;
+
+}
+.id{
+    border-right: hidden;
+    border-left: hidden;
+    height:50px;
+    background-color: rgb(240, 237, 237);
+    color:rgb(211, 14, 60);
+}
+.quote{
+    border-left: hidden;
+    border-right: hidden;
+    height:50px;
+    background-color: rgb(240, 237, 237);
+
+}
+.customer{
+    border-left: hidden;
+    border-right: hidden;
+    height:50px;
+    background-color: rgb(240, 237, 237);
+}
+.total{
+    border-left: hidden;
+    height:50px;
+    background-color: rgb(240, 237, 237);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
